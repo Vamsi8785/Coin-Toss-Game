@@ -1,0 +1,63 @@
+.coin-toss-game-app {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  padding: 42px;
+  display: flex;
+  justify-content: center;
+}
+.coin-toss-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.toss-coin-img {
+  width: 40%;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+.game-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+.game-role-text {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.toss-button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  padding: 8px 10px 8px 10px;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.toss-result {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .toss-result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .toss-result {
+    margin-right: 20px;
+  }
+}
